@@ -1,8 +1,29 @@
 aid: fincentric
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/fincentric.png
 name: Fincentric
-description: Fincentric is a company surfaced as a portfolio company of battery-ventures and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Fincentric Corporation was a Canadian core retail and wealth banking software
+  vendor founded in 1984 and headquartered in Richmond, British Columbia. It
+  provided account processing, core banking, and wealth management technology to
+  credit unions and financial institutions, serving roughly 167 clients worldwide
+  and claiming a large share of Canada's top credit unions. Backed by Battery
+  Ventures alongside BancBoston Ventures, HarbourVest Partners, Shasta Ventures,
+  and Ventures West Capital, the company was acquired by US core-banking vendor
+  Open Solutions in May 2007; Open Solutions was itself acquired by Fiserv in 2013.
+  Fincentric no longer operates as an independent company and publishes no live
+  developer portal, public API, or documentation surface. This profile is retained
+  as a historical/defunct entry — there are no API artifacts to enrich.
 url: https://raw.githubusercontent.com/api-evangelist/fincentric/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,14 +31,34 @@ x-backed-by:
 - battery-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-status-note: >-
+  Acquired by Open Solutions (2007), which was acquired by Fiserv (2013); no live
+  domain resolves and no API surface exists. Enrichment yields no real artifacts.
+x-founded: '1984'
+x-headquarters: Richmond, British Columbia, Canada
+x-acquired-by: open-solutions
+x-acquired-date: '2007-05-10'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Banking
+- Core Banking
+- Credit Unions
+- Wealth Management
+- Financial Services
+- Defunct
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
