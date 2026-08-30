@@ -82,3 +82,9 @@ x-enrichment:
   status: backfilled
   pass: local-v1
   note: backfilled from .gitignore signal + verified work evidence
+common:
+- type: ParentCompany
+  url: https://apis.io/providers/fiserv/
+  name: Fiserv
+  x-relationship: acquired
+  x-evidence: "Backed by Battery Ventures alongside BancBoston Ventures, HarbourVest Partners, Shasta Ventures, and Ventures West Capital, the company was acquired by US core-banking vendor Open Solutions in May 2007; Open Solutions was itself acquired by"
