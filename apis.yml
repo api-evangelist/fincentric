@@ -59,7 +59,7 @@ tags:
 - Core Banking
 - Credit Union
 - Wealth Management
-- Financial-Services
+- Financial Services
 - Defunct
 - Acquired
 tags_raw:
@@ -71,6 +71,7 @@ tags_raw:
 - Financial Services
 - Defunct
 - Acquired
+- Financial-Services
 apis: []
 maintainers:
 - FN: Kin Lane
