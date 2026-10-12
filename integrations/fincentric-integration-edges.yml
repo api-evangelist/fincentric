@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/fincentric/integrations
+- https://n8n.io/integrations/fincentric/
+- https://composio.dev/toolkits/fincentric
+- https://monid.ai/tools/fincentric
+checked:
+- https://composio.dev/toolkits/fincentric
+- https://monid.ai/tools/fincentric
+- https://n8n.io/integrations/fincentric/
+- https://zapier.com/apps/fincentric/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
